@@ -8,25 +8,24 @@
     src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 10px;
 }
 
-header{
+header {
     background-color: black;
 }
 
-header div{
+header div {
     display: flex;
 }
-
-.btn{
+.btn {
     border: 1px solid white;
     text-decoration: none;
     color: white;
@@ -35,12 +34,11 @@ header div{
     justify-content: center;
     align-items: center;
 }
- 
-article{
-    
+
+article {
 }
 
-h1{
+h1 {
     font-family: "Inter-Variable", sans-serif;
     color: white;
     font-size: 9.6rem;
@@ -48,31 +46,104 @@ h1{
     text-align: center;
 }
 
-h1 span{
+h1 span {
     color: black;
     -webkit-text-stroke: white 1px;
 }
 
-p{
+p {
     font-family: "Work-Sans", sans-serif;
     color: white;
     font-size: 2rem;
-    font-weight: 400; 
+    font-weight: 400;
     text-align: center;
 }
+section > div > img {
+    width: 100px;
+}
+h2 {
+    font-family: "Inter-Variable", sans-serif;
+    font-size: 8.4rem;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
 
-
------------------------------
-
-
-.header-line{
+----------------------------- .header-line {
     display: block;
     width: 1px;
     height: 186px;
     background-color: white;
     margin: 0 auto 42px auto;
 }
-.flying-pictures{
-    position: relative; 
+.flying-pictures {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 41rem 0 31rem 0;
 }
-
+.flying-pictures h2 {
+    width: 50%;
+}
+.flying-pictures p {
+    color: black;
+    text-align: left;
+    width: 50%;
+    line-height: 2.96rem;
+}
+.flying-pictures p:nth-of-type(1) {
+    margin-bottom: 68rem;
+}
+.flying-pictures img {
+    width: 100px;
+}
+.flying-pictures img:nth-of-type(1) {
+    position: absolute;
+    top: -8.1rem;
+    right: 11rem;
+    width: 32.91rem;
+    height: 21.94rem;
+}
+.flying-pictures img:nth-of-type(2) {
+    position: absolute;
+    top: 28.1rem;
+    left: 5.5rem;
+    width: 27.5rem;
+    height: 18.3rem;
+}
+.flying-pictures img:nth-of-type(3) {
+    position: absolute;
+    top: 66.6rem;
+    right: 0;
+    width: 27.5rem;
+    height: 18.3rem;
+}
+.flying-pictures img:nth-of-type(4) {
+    position: absolute;
+    top: 87.4rem;
+    left: 21.9rem;
+    width: 33rem;
+    height: 22rem;
+}
+.flying-pictures img:nth-of-type(5) {
+    position: absolute;
+    top: 106rem;
+    right: 16.5rem;
+    width: 33rem;
+    height: 22rem;
+}
+.flying-pictures img:nth-of-type(6) {
+    position: absolute;
+    top: 136rem;
+    left: 0;
+    width: 28rem;
+    height: 19rem;
+}
+.flying-pictures img:nth-of-type(7) {
+    position: absolute;
+    top: 164rem;
+    right: 27.4rem;
+    width: 44rem;
+    height: 30rem;
+}
