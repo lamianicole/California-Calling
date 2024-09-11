@@ -68,7 +68,8 @@ h2 {
     letter-spacing: -1.2px;
 }
 
------------------------------ .header-line {
+----------------------------- 
+.header-line {
     display: block;
     width: 1px;
     height: 186px;
@@ -147,3 +148,62 @@ h2 {
     width: 44rem;
     height: 30rem;
 }
+
+.bear{
+    background-color: black;
+    padding: 15%
+}
+
+.bear article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bear > article > div{
+    width: 30%;
+
+}
+
+.bear h2{
+    color:white;
+}
+
+.bear p{
+    text-align: left;
+}
+
+.number{
+    font-size: 2rem;
+}
+
+.opinion{
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 3.3rem;
+}
+
+.artist{
+    font-size: 1.9rem;
+    line-height: 3rem;
+}
+
+.bear > div{
+    width: 100%;
+    position: relative;
+}
+
+.bear > div >img:nth-of-type(1){
+    width: 73.1rem;
+    height: 73.1rem;
+}
+
+.bear > div >img:nth-of-type(2){
+    width: 36.6rem;
+    height: 47.3rem;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 1;
+}
+
+
