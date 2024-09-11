@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Inter-Variable";
+    src: url("../assets/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Work-Sans";
+    src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    background-color: black;
+}
+
+header div{
+    display: flex;
+}
+
+.btn{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+article{
+    
+}
+
+h1{
+    font-family: "Inter-Variable", sans-serif;
+    color: white;
+    font-size: 9.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 span{
+    color: black;
+    -webkit-text-stroke: white 1px;
+}
+
+p{
+    font-family: "Work-Sans", sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400; 
+    text-align: center;
+}
+
+
+-----------------------------
+
+
+.header-line{
+    display: block;
+    width: 1px;
+    height: 186px;
+    background-color: white;
+    margin: 0 auto 42px auto;
+}
+.flying-pictures{
+    position: relative; 
+}
+
