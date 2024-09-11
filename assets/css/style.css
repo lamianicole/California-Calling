@@ -68,8 +68,7 @@ h2 {
     letter-spacing: -1.2px;
 }
 
------------------------------ 
-.header-line {
+----------------------------- .header-line {
     display: block;
     width: 1px;
     height: 186px;
@@ -149,55 +148,54 @@ h2 {
     height: 30rem;
 }
 
-.bear{
+.bear {
     background-color: black;
-    padding: 15%
+    padding: 15%;
 }
 
-.bear article{
+.bear article {
     display: flex;
     justify-content: space-between;
 }
 
-.bear > article > div{
+.bear > article > div {
     width: 30%;
-
 }
 
-.bear h2{
-    color:white;
+.bear h2 {
+    color: white;
 }
 
-.bear p{
+.bear p {
     text-align: left;
 }
 
-.number{
+.number {
     font-size: 2rem;
 }
 
-.opinion{
+.opinion {
     font-size: 2.9rem;
     font-weight: 700;
     line-height: 3.3rem;
 }
 
-.artist{
+.artist {
     font-size: 1.9rem;
     line-height: 3rem;
 }
 
-.bear > div{
+.bear > div {
     width: 100%;
     position: relative;
 }
 
-.bear > div >img:nth-of-type(1){
+.bear > div > img:nth-of-type(1) {
     width: 73.1rem;
     height: 73.1rem;
 }
 
-.bear > div >img:nth-of-type(2){
+.bear > div > img:nth-of-type(2) {
     width: 36.6rem;
     height: 47.3rem;
     position: absolute;
@@ -205,5 +203,60 @@ h2 {
     top: 25%;
     z-index: 1;
 }
+.poppy-bear {
+    padding: 15%;
+    position: relative;
+    overflow: hidden;
+}
+.poppy-bear {
+    background-color: white;
+}
+.poppy-bear article {
+    display: flex;
+    justify-content: space-between;
+}
+.poppy-bear > article > div {
+    width: 30%;
+}
 
+.poppy-bear h2 {
+    color: black;
+}
 
+.poppy-bear p {
+    text-align: left;
+    color: black;
+}
+.poppy-bear > div {
+    width: 100%;
+    position: relative;
+}
+.poppy-bear > div > img:nth-of-type(1) {
+    width: 73.1rem;
+    height: 73.1rem;
+}
+
+.poppy-bear > div > img:nth-of-type(2) {
+    width: 36.6rem;
+    height: 47.3rem;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 1;
+}
+.animation {
+    width: 500px;
+    position: absolute;
+    top: -9.2rem;
+    right: -14rem;
+    animation: drehung 10s linear 0s infinite;
+}
+
+@keyframes drehung {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
